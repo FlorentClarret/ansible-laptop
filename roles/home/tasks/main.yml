@@ -1,0 +1,18 @@
+---
+
+- name: Updating Homebrew
+  homebrew:
+    update_homebrew: true
+
+- name: Upgrading Homebrew Packages
+  homebrew:
+    upgrade_all: true
+
+- name: Install brew packages
+  homebrew:
+    name: "{{ item }}"
+  loop:
+    - bat
+    - chezmoi
+    - jq
+    - mc

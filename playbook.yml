@@ -1,0 +1,5 @@
+---
+- name: Install my laptop
+  hosts: localhost
+  roles:
+    - home

@@ -15,6 +15,7 @@
     - bat
     - chezmoi
     - diff-so-fancy
+    - gh
     - glances
     - jq
     - mc

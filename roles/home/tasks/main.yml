@@ -14,6 +14,7 @@
   loop:
     - bat
     - chezmoi
+    - diff-so-fancy
     - glances
     - jq
     - mc
